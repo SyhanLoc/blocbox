@@ -1,26 +1,25 @@
-html, body{
-  
-  overflow-x: hidden;
+html, body {
+  overflow-x:hidden;
 }
 body {
-  font-family: "Noto Sans", Helvetica, Arial, san-serif;
+  font-family: "NotoSans", Helvetica, Arial, sans-serif;
   color:#333333;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Noto San", Helvetica, Arial, san-serif;
+  font-family: "NotoSans", Helvetica, Arial, sans-serif;
 }
 h2 {
-  font-size:28px;
+  font-size: 28px;
   font-weight: normal;
   margin-bottom: 5px;
 }
 p {
-  font-size:16px;
+  font-size: 16px;
   line-height: 19px;
   font-weight: 100;
 }
 
-/* GRID */
+/*GRID */
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -33,6 +32,9 @@ p {
   content: " ";
   display: table;
 }
+.container:after {
+  clear:both;
+}
 .one-half, .one-third, .one-fourth {
   width:96%;
   float:left;
@@ -40,4 +42,3 @@ p {
   min-height: 1px;
   margin: 0 2% 20px;
 }
-
