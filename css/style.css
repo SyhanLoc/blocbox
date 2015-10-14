@@ -56,7 +56,7 @@ p {
     width:46%;
   }
   .one-third {
-    width: 29.33333%;
+    width: 28%;
   }
   .one-fourth {
     width:21%;
@@ -64,7 +64,7 @@ p {
 }
 @media (min-width: 1200px)
   .container {
-    width:1170px;
+    width:117px;
   }
 }
 
