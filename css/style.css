@@ -312,6 +312,12 @@ header .hero img {
   padding: 20px;
 }
 
+.top-nav li {
+  display: inline;
+  padding: 20px;
+  color: white;
+}
+
 .items > li {
   display: inline-block;
   padding: 0 25px 0 25px;
