@@ -297,3 +297,9 @@ header .hero img {
   float: right;
   padding: 5px;
  }
+
+ @media (min-width: 992px){
+  footer {
+    text-align: center;
+  }
+ 
