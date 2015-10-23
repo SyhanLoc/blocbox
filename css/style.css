@@ -56,6 +56,7 @@ p {
   position: relative;
   min-height: 1px;
   margin: 0 2% 20px;
+  list-style-type: none;
 }
 
 @media (min-width: 768px) {
@@ -185,7 +186,9 @@ header .hero img {
  #highlight {
   background-color: black;
   color: white;
-  width: auto;
+  padding: 10px;
+  font-weight: bold;
+  display: inline;
  }
 
 .pricing h2, .pricing p {
@@ -313,7 +316,6 @@ header .hero img {
 
 .top-nav {
   background-color: #233247;
-  color: white;
   list-style: none;
   padding: 20px;
 }
@@ -323,8 +325,14 @@ header .hero img {
 }
 
 .top-nav li {
-  display: inline;
+  display: inline-block;
   padding: 20px;
+  color: white;
+  font-size: 20px;
+
+}
+
+.top-nav a {
   color: white;
 }
 
@@ -459,15 +467,39 @@ header .hero img {
  /* FOOTER */
 
  .bottom-avatar {
-  clear: both;
-  background-color: #233247;
+  position:absolute;
+   background:#22303E;
+   width:100%;
+   bottom:0;
+   left:0;
+   right:0;
+   padding:5px 0;
  }
 
  .bottom-avatar img {
-   height: 70px;
-   width: 70px;
-   border-radius:50%;
-   float: center;
+   height:50px;
+   width:50px;
+   border-radius: 50%;
+   margin-left:10px;
    display: inline-block;
-   margin:3px 10px 0 0;
  }
+
+.bottom-avatar p {
+  display: inline-block;
+  color: white;
+  vertical-align: top;
+  padding-top: 8px;
+  font-size: 1em;
+  margin:5px 0 0 10px;
+ }
+
+ .bottom-avatar a {
+  color:#FFFFFF;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+  margin:5px 0 0 10px;
+}
+
+
+
