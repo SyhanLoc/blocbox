@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+
+    <title>Dashboard | Blocbox</title>
+
+    <!--Google Fonts -->
+
+       <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Varela+Round' rel='stylesheet' type='text/css'>
+ 
+   <!-- CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/dropit.css">
+
+ 
+    </head>
+
+    <!-- NAVIGATION -->
+
+    <body class="dashboard">
+        <nav class="main-navigation clearfix" >
+
+
+          <a href="#"><i class="fa fa-bars"></i></a>
+            <ul>
+              <li>
+                <a href="">Item</a>
+              </li>
+              <li>
+                <a href="">Item</a>
+              </li>
+              <li>
+                <a href="">Item</a>
+              </li>
+              <li>
+                <a href="">Item</a>
+              </li>
+              <li>
+                <a href="">Item</a>
+              </li>
+            </ul>
+
+
+        </nav>
+
+    <!--CONTENTS-->
+    <main role="main">
+        <section class="content">
+                 <div class="container">
+                   <div class="header">
+                     <h1>All Items</h1>
+                     <ul class="menu">
+                        <li>
+                         <a href="#" class="btn">+ Add</a>
+                         <ul>
+                            <li><a href="#">Note</a></li>
+                            <li><a href="#">Image</a></li>
+                            <li><a href="#">Link</a></li>
+                        </ul>
+                            </li>
+                     </ul>
+                   </div>
+                 </div>
+                 <div class="container">
+                   <div class="content-item">
+                     <div class="item-box">
+                        <img src="https://static.pexels.com/photos/2207/red-people-outside-sport-medium.jpg">
+                     </div>
+                   </div>
+                   <div class="content-item">
+                     <div class="item-box">
+                        <h2><img class="favicon" src="http://espn.go.com/favicon.ico"> <a href="http://www.espn.com">espn.com</a></h2>
+                        <p>U.S.-based global cable and satellite television channel owned by ESPN Inc.</p>
+                     </div>
+                   </div>
+                   <div class="content-item">
+                     <div class="item-box">
+                        <h2><a href="#">Need to find a designer</a></h2>
+                            <p>We have a one-person design team, but are ready to expand. We need to look for a second designer right now so we can continue to grow.</p>
+                            <p>Put your recommendations here so we can view all of them. ...</p>
+                     </div>
+                   </div>
+                   <div class="content-item">
+                     <div class="item-box">
+                            <img src="https://static.pexels.com/photos/7071/space-desk-office-workspace-medium.jpg">
+                     </div>
+                   </div>
+                   <div class="content-item">
+                     <div class="item-box">
+                            <h2><img class="favicon" src="http://www.cnn.com/favicon.ico"> <a href="http://www.cnn.com">cnn.com</a></h2>
+                            <p>The first television channel to provide 24-hour news coverage and was the first all-news television channel in the United States.</p>
+                     </div>
+                   </div>
+                   <div class="content-item">
+                     <div class="item-box">
+                            <img src="https://static.pexels.com/photos/5156/people-eiffel-tower-lights-night-large.jpg">
+                      </div>
+                    </div>
+                    <div class="content-item">
+                      <div class="item-box">
+                            <h2><a href="#">Testing</a></h2>
+                            <p>Should designers in high-tech learn how to code?</p>
+                      </div>
+                    </div>
+                    <div class="content-item">
+                      <div class="item-box">
+                            <h2><img class="favicon" src="https://www.invisionapp.com/favicon.ico"> <a href="http://www.invisionapp.com">invisionapp.com</a></h2>
+                            <p>Free Web &amp; Mobile (iOS, Android) Prototyping and UI Mockup Tool | InVision</p>
+                      </div>
+                    </div>
+                    <div class="content-item">
+                      <div class="item-box">
+                     <img src="https://static.pexels.com/photos/7375/startup-photos-medium.jpg">
+                      </div>
+                    </div>
+                    <div class="content-item">
+                      <div class="item-box">
+                            <h2><a href="#">Why storing inspiration is great</a></h2>
+                            <p>blocbox is a new tool to help collect and store your inspiration and information. From images, to links, to notes like this one, you can keep track of all your favorite things.</p>
+                      </div>
+                    </div>
+                    </div> 
+                    <!--FOOTER-->
+    <div class="bottom-avatar">
+        <div class="settings">
+            <img src= "image/mookie.jpg" alt ="Avatar">
+            <p>Mookie Betts</p>
+            <a href="#"><i class="fa fa-bars"></i></a>
+        </div>
+    </div>
+        </section>
+  </main>
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/dropit.js"></script>
+  <script type="text/javascript">
+  $('.menu').dropit();
+  $
+  $('.fa-bars').click( function (e){
+    e.preventDefault();
+    $('.main-navigation ul').slideToggle();
+  });
+
+</script>
+    </body>
+</html>
