@@ -330,10 +330,12 @@ header .hero img {
   color: white;
   font-size: 20px;
 
+
 }
 
 .top-nav a {
   color: white;
+  text-decoration: none;
 }
 
 .items {
@@ -418,10 +420,8 @@ header .hero img {
 /* Laptops and Desktops */
  @media (min-width:992px) {
    .content {
-     padding:1.5em 1%;
-     float:right;
-     width:83.33333333%;
-     position: relative;
+    float:left;
+    position: relative;
    }
    .content > .container {
      width:auto;
