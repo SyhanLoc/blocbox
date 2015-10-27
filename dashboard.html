@@ -23,15 +23,18 @@
     <!-- NAVIGATION -->
 
     <body class="dashboard">
+      <!-- RESPONSIVE NAV -->
+      <a class="hamburger" id="menu" href="#">&#9776;</a>
+      <!-- Top Navigation -->
         <nav id="top-nav" class="top-nav clearfix" >
             <a href="index.html" class="site-logo"><img src="image/site-logo.png" /></a>
             <div class="items">
                 <ul>
-                    <li><a href="#"> All Items</a> |</li>
-                    <li><a href="#"> Notes</a> |</li>
-                    <li><a href="#"> Images</a> |</li>
-                    <li><a href="#"> Links</a> |</li>
-                    <li><a href="#"> Contact</a> |</li>
+                    <li><a href="#"> All Items</a></li>
+                    <li><a href="#"> Notes</a></li>
+                    <li><a href="#"> Images</a></li>
+                    <li><a href="#"> Links</a></li>
+                    <li><a href="#"> Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -128,6 +131,9 @@
   <script src="js/dropit.js"></script>
   <script type="text/javascript">
   $('.menu').dropit();
+  $('#menu').click(function(){
+    $('#top-nav').toggleClass("open", 200);
+  });
 </script>
     </body>
 </html>
