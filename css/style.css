@@ -307,6 +307,12 @@ header .hero img {
   padding: 5px;
  }
 
+ .top-nav {
+  background-color: #233247;
+  list-style: none;
+  padding: 20px;
+}
+
  @media (min-width: 992px){
   footer {
     text-align: center;
@@ -314,15 +320,10 @@ header .hero img {
  
  /* DASHBOARD */
 
-.top-nav {
-  background-color: #233247;
-  list-style: none;
-  padding: 20px;
-}
 
 .top-nav.open {
    display:block;
-   width:500px;
+   width:800px;
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
@@ -333,7 +334,7 @@ header .hero img {
      -moz-transform: translate(0,0); /** Firefox **/
      z-index: 100;
  }
- .hamburger {
+ /*.hamburger {
    position:absolute;
    z-index: 1000;
    background:#34495E;
@@ -345,7 +346,7 @@ header .hero img {
    right: 5px;
    top: 15px;
  }
-
+*/
 }
 .site-logo {
   float: left;
@@ -512,7 +513,7 @@ header .hero img {
    bottom:0;
    left:0;
    right:0;
-   padding:5px 0;
+   padding:5px 0;  
  }
 
  .bottom-avatar img {
