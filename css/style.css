@@ -289,8 +289,9 @@ header .hero img {
 
  footer {
   background-color: #233247;
+  clear: both;
   color: white;
-  height: 120;
+  height: 120px;
   position: relative;
   overflow: hidden;
   z-index: 0;
