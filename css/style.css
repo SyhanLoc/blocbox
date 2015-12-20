@@ -191,7 +191,7 @@ header .hero img {
   display: inline;
  }
 
-.pricing h2, .pricing p {
+.pricing h2, .pricing p {  
    color:#000000;
  }
  .pricing ul {
@@ -287,8 +287,26 @@ header .hero img {
 
  /* FOOTER */
 
+ #footer1 {
+  background-color: #22303E;
+  clear: both;
+  color: white;
+  height: 58px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+ }
+  #footer1 .copyright-block{
+  margin: 20px;
+  float: left;
+  display: block;
+ }
+  #footer1 .right-footer-block {
+  float: right;
+  padding: 15px;
+ }
+
  footer {
-  background-color: #233247;
   clear: both;
   color: white;
   height: 120px;
@@ -316,7 +334,7 @@ header .hero img {
 
  @media (min-width: 992px){
   footer {
-    text-align: center;
+    text-align: left;
   }
  
  /* DASHBOARD */
@@ -385,6 +403,13 @@ header .hero img {
     height:100%;
     width:280px;
     color: #FFFFFF;
+}
+@media (min-width:460px) {
+.top-nav {
+    /*height:100%;*/
+    width:100%;
+    color: #FFFFFF;
+}
 }
 }
 
